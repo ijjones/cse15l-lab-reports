@@ -1,3 +1,7 @@
+<span style="color:green;font-weight:700;font-size:20px">
+    ISAIAH JONES
+</span>
+
 ---
 layout: post
 title: <span style="color:green;font-weight:700;font-size:20px">
