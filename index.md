@@ -1,11 +1,9 @@
 ---
-layout: page
-title: Hello, World!
+layout: post
+title: Isaiah Jones
 ---
 
---- 
-
-### Week 0
+Week 0
 
 **this** formatting updates _as I type_
 
@@ -13,8 +11,4 @@ title: Hello, World!
 
 ---
 
-### Week 1
-
-<span style="color:green;font-weight:700;font-size:20px">
-    markdown color font styles
-</span>
+Week 1
