@@ -1,13 +1,6 @@
-<span style="color:green;font-weight:700;font-size:20px">
+<span style="color:blue;font-weight:300;font-size:70px">
     ISAIAH JONES
 </span>
-
----
-layout: post
-title: <span style="color:green;font-weight:700;font-size:20px">
-    markdown color font styles
-</span>
----
 
 <span style="color:black;font-weight:700;font-size:20px">
     WEEK 0
