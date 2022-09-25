@@ -1,7 +1,7 @@
 title: CSE 15L Lab Reports
 author: Isaiah Jones
-  name: GitHub User
-  email: your-email@domain.com
+  #name: GitHub User
+  #email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
   CSE 15L Github Page
 
@@ -48,8 +48,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages: About
-#- about.md
+header_pages:
+  - about.md
 
 # Build settings
 theme: minima
