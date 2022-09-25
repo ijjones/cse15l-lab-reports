@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Isaiah Jones
+title: <span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
 ---
 
 <span style="color:black;font-weight:700;font-size:20px">
