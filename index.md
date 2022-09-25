@@ -1,4 +1,4 @@
-<span style="color:Gray;font-weight:600;font-size:72px">
+<span style="color:OliveDrab;font-weight:600;font-size:72px">
     ISAIAH JONES
 </span>
 
