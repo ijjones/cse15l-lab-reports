@@ -1,3 +1,5 @@
+## Lab Reports 
+
 ---
 layout: page
 title: "Week 0"
