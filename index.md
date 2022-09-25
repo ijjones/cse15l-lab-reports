@@ -3,7 +3,9 @@ layout: post
 title: Isaiah Jones
 ---
 
-Week 0
+<span style="color:black;font-weight:700;font-size:20px">
+    WEEK 0
+</span>
 
 **this** formatting updates _as I type_
 
