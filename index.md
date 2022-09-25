@@ -1,4 +1,4 @@
-# About
+
 ## Lab 1 Week 0
 ### Lab 1 Week 0
 
