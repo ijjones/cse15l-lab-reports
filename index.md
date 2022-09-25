@@ -4,7 +4,7 @@
 
 ---
 
-<span style="color:black;font-weight:5;font-size:20px">
+<span style="color:black;font-weight:0.5;font-size:20px">
     WEEK 0
 </span>
 
