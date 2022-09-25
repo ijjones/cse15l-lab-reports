@@ -3,6 +3,8 @@ layout: page
 title: Hello, World!
 ---
 
+--- 
+
 ## Week 0
 
 **this** formatting updates _as I type_
