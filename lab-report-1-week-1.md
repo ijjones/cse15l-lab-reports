@@ -20,3 +20,9 @@ Note: replace zz with your specific account letters
 * You are now connected remotely!
 
 **Part 4: Trying Some Commands**
+
+**Part 5: Moving Files With scp**
+
+**Part 6: Setting an SSH key**
+
+**Part 7: Optimizing Remote Running**
