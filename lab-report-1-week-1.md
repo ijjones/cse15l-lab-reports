@@ -15,4 +15,8 @@ ssh cs15lfa22zz@ieng6.ucsd.edu
 
 Note: replace zz with your specific account letters
 ~~~
+* Enter your password. If you would like to reset your passowrd then visit [this link](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 * You will then be prompted by a message. In the terminal type **yes**.
+* You are now connected remotely!
+
+**Part 4: Trying Some Commands**
