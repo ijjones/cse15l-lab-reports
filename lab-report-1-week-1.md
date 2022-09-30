@@ -34,6 +34,7 @@ Note: Replace zz with you specific letters
 * If the file is shown in the output, use <code>cat</code> followed by the file name in the terminal. The contents of the file should be shown.
 * You have successfully copied the file 
 ![screenshot](part5.png)
+![screenshot](part9.png)
 
 **Part 5: Setting an SSH key**
 * In the terminal type <code>ssh-keygen</code>
@@ -44,7 +45,7 @@ Note: Replace zz with you specific letters
 * In the terminal enter <code>mkdir .ssh</code>. Then logout using <code>exit</code>
 * You should know be able to sign into the server without using a password.
 ![screenshot](part6.png)
-* If done correctly, this is how you should log into the remote server
+* If done correctly, then you should not be prompted for a password when logging in remotely
 ![screenshot](part7.png)
 
 **Part 6: Optimizing Remote Running**
