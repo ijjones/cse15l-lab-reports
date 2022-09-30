@@ -16,12 +16,7 @@ Note: replace zz with your specific account letters </code></pre>
 * You are now connected remotely!
 
 **Part 4: Trying Some Commands**
-* Once you are in the server, try running some commands <pre><code>ls
-pwd
-mkdir
-ls
-cp
-...</code></pre>
+* Once you are in the server, try running some commands. Some useful commads are <code>ls pwd mkdir ls cp</code>
 
 **Part 5: Moving Files With scp**
 * You can copy files using <code>scp</code> also known as secure copy.
