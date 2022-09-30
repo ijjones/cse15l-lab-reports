@@ -5,6 +5,7 @@
 
 **Part 2: Remotely Connecting**
 * Note: If you are on Windows install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
+* To find your account go to [link](https://sdacs.ucsd.edu/~icc/index.php) and enter your username and PID.
 * Once installed, open VScode and open the Terminal (Ctrl or Command + `)
 * In the terminal, type
 
