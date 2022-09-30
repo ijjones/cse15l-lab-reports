@@ -6,9 +6,6 @@
 **Part 2: Remotely Connecting**
 * Note: If you are on Windows install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
 * Once installed, open VScode and open the Terminal (Ctrl or Command + `)
-* 
-
-**Part 3: Trying some commands**
 * In the terminal, type
 
 <pre><code>ssh cs15lfa22zz@ieng6.ucsd.edu
@@ -30,6 +27,8 @@ cp
 * You can copy files using <code>scp</code> also known as secure copy.
 * In your terminal, type <pre><code>scp File Name cs15lfa22zz@ieng6.ucsd.edu:~/
 Note: Replace zz with you specific letters </code></pre>
+This will copy a file to the server
+* 
 
 
 **Part 6: Setting an SSH key**
