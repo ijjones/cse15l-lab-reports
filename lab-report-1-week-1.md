@@ -1,7 +1,7 @@
 **Part 1: Installing VScode**
-* Visit [VScode Website](https://code.visualstudio.com/)
-* Click blue download button on the top right corner
+* Visit [VScode Website](https://code.visualstudio.com/download)
 * Download for Windows or Mac depending on your system.
+![screenshot](part1.png)
 
 **Part 2: Remotely Connecting**
 * Note: If you are on Windows install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
@@ -44,6 +44,9 @@ Note: Replace zz with you specific letters
 * In the terminal enter <code>mkdir .ssh</code>. Then logout using <code>exit</code>
 * You should know be able to sign into the server without using a password.
 ![screenshot](part6.png)
+* If done correctly, this is how you should log into the remote server
+![screenshot](part7.png)
 
 **Part 6: Optimizing Remote Running**
-![screenshot](part7.png)
+* There are multiple ways to optimize remote running. 
+* 
