@@ -48,5 +48,11 @@ Note: Replace zz with you specific letters
 ![screenshot](part7.png)
 
 **Part 6: Optimizing Remote Running**
-* There are multiple ways to optimize remote running. 
-* 
+* There are many ways to optimize remote running.
+* In VScode, you can Command + o or in windows Ctrl + o to open a new file. Once the file opens, you can edit it and then Commnad + s or Ctrl + s in Windows to save the file. 
+* A shortcut to open the terminal is Ctrl + `.
+* In the terminal you can use <pre><code>ssh cs15lfa22@ieng6.ucsd.edu "ls"</code></pre> to sign and view the list of files. Using quotes at the end to directly run once logged in. 
+* Once you find your new file you can use <pre><code>cp FileName.java; javac FileName.java; java FileName</code></pre>
+You can use semicolons to run mutiple commands
+* Lastly, you can use the up arrow key to go to the previously typed command. 
+![screenshot](part8.png)
