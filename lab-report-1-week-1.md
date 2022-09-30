@@ -24,8 +24,10 @@ Note: replace zz with your specific account letters </code></pre>
 <pre><code>scp File Name cs15lfa22zz@ieng6.ucsd.edu:~/
 Note: Replace zz with you specific letters 
 </code></pre>
-* 
-
+* Enter your password once prompted. 
+* Check if your file is in the server by using <code>ls</code>
+* If it is try running it by using <code>cat</code> followed by the file name in the terminal. 
+* The file should now be copied.
 
 **Part 6: Setting an SSH key**
 
