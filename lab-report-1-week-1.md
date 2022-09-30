@@ -10,7 +10,7 @@
 
 **Part 3: Trying some commands**
 * In the terminal, type
-```
+```json
 ssh cs15lfa22zz@ieng6.ucsd.edu
 
 Note: replace zz with your specific account letters
