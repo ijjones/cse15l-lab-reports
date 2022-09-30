@@ -34,6 +34,7 @@ Note: Replace zz with you specific letters
 * If the file is shown in the output, use <code>cat</code> followed by the file name in the terminal. The contents of the file should be shown.
 * You have successfully copied the file 
 ![screenshot](part5.png)
+
 ![screenshot](part9.png)
 
 **Part 5: Setting an SSH key**
