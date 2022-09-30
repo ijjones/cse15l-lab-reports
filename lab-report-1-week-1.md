@@ -26,9 +26,10 @@ Note: replace zz with your specific account letters </code></pre>
 Note: Replace zz with you specific letters 
 </code></pre>
 * Enter your password once prompted. 
-* Check if your file is in the server by using <code>ls</code>
-* If it is try running it by using <code>cat</code> followed by the file name in the terminal. 
-* The file should now be copied.
+
+* To check if your file is in the server, log into your remote account and use <code>ls</code>
+* If the file is shown in the output, use <code>cat</code> followed by the file name in the terminal. The contents of the file should be shown.
+* You have successfully copied the file 
 
 **Part 6: Setting an SSH key**
 
