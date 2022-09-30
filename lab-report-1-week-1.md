@@ -19,8 +19,18 @@ Note: replace zz with your specific account letters </code></pre>
 * You are now connected remotely!
 
 **Part 4: Trying Some Commands**
+* Once you are in the server, try running some commands <pre><code>ls
+pwd
+mkdir
+ls
+cp
+...</code></pre>
 
 **Part 5: Moving Files With scp**
+* You can copy files using <code>scp</code> also known as secure copy.
+* In your terminal, type <pre><code>scp File Name cs15lfa22zz@ieng6.ucsd.edu:~/
+Note: Replace zz with you specific letters </code></pre>
+
 
 **Part 6: Setting an SSH key**
 
