@@ -1,7 +1,7 @@
 **Part 1: Installing VScode**
 * Visit [VScode Website](https://code.visualstudio.com/download)
 * Download for Windows or Mac depending on your system.
-![screenshot](part1.png)
+![screenshot](images/part1.png)
 
 **Part 2: Remotely Connecting**
 * Note: If you are on Windows install [OpenSSH](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui)
