@@ -36,7 +36,8 @@ Note: Replace zz with you specific letters
 * You have successfully copied the file 
 ![screenshot](images/part5.png)
 
-![screenshot](images/part9.png)
+![screenshot](sspart4.png)
+![screenshot](sspart42.png)
 
 **Part 5: Setting an SSH key**
 * In the terminal type <code>ssh-keygen</code>
