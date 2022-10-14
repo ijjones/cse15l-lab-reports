@@ -7,6 +7,7 @@ class Handler implements URLHandler {
     // various requests.
     String string = "";
     ArrayList<String> string2 = new ArrayList<>();
+    ArrayList<String> searchResults = new ArrayList<>();
     
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
@@ -22,11 +23,12 @@ class Handler implements URLHandler {
             }
             else {
                 String[] parameters2 = url.getQuery().split("=");
-                for (int i = 0; i < string2.size(); i += 1){
-                    if (!string2.contains(parameters2[1])){
-                        string2.remove(string2.get(i));
+                for (int i = 0; i < string2.size(); i++){
+                    if (string2.get(i).contains(parameters2[1])){
+                        searchResults.add(string2.get(i));
                     }
                 }
+                return String.format("String: %s", searchResults.toString());
             }
             return "404 Not Found!";
         }
