@@ -37,6 +37,9 @@ Note: Replace zz with you specific letters
 
 ![screenshot](images/sspart4.png)
 ![screenshot](images/sspart42.png)
+![screenshot[(images/sspart43.png]
+
+* 
 
 **Part 5: Setting an SSH key**
 * In the terminal type <code>ssh-keygen</code>
