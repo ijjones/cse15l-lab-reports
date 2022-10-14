@@ -39,7 +39,7 @@ Note: Replace zz with you specific letters
 ![screenshot](images/sspart42.png)
 ![screenshot](images/sspart43.png)
 
-* 
+* The local and remote still use the same commands to run java files. They may look similar however, they are different. One runs locally (local) and one runs from a remote server (remote). WHen calling the file, you see that the local and remote have different outputs. That is because the running it locally will return the contents of your computer, while running remotly will show the contents of the remote server.
 
 **Part 5: Setting an SSH key**
 * In the terminal type <code>ssh-keygen</code>
