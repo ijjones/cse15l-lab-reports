@@ -68,12 +68,14 @@ class NumberServer {
 **Part 2**
 
 Bug 1
+
 *
 *
 *
 *
 
 Bug 2
+
 *
 *
 *
