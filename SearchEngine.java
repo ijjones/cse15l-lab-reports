@@ -18,10 +18,15 @@ class Handler implements URLHandler {
                 if (parameters[0].equals("s")) {
                     string2.add(parameters[1]);
                     return String.format("%s was added to list!", parameters[1]);
-                }
-            else{
-                
+                } 
             }
+            else {
+                String[] parameters2 = url.getQuery().split("=");
+                for (int i = 0; i < string2.size(); i += 1){
+                    if (!string2.contains(parameters2[1])){
+                        string2.remove(string2.get(i));
+                    }
+                }
             }
             return "404 Not Found!";
         }
