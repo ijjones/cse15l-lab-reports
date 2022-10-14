@@ -34,7 +34,6 @@ Note: Replace zz with you specific letters
 * To check if your file is in the server, log into your remote account and use <code>ls</code>
 * If the file is shown in the output, use <code>cat</code> followed by the file name in the terminal. The contents of the file should be shown.
 * You have successfully copied the file 
-![screenshot](images/part5.png)
 
 ![screenshot](images/sspart4.png)
 ![screenshot](images/sspart42.png)
