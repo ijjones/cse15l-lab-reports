@@ -85,7 +85,7 @@ Bug 1: Reveresed
     System.out.println(ArrayExamples.reversed(input1));
     assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input1));
   }
- ```
+```
 * The Symptom
 ```
 2) testReversed2(ArrayTests)
@@ -140,6 +140,7 @@ public void testFilter() {
 	}
 }
 ```
+
 * The Symptom
 ```
 2) testFilter(ArrayTests)
@@ -151,6 +152,7 @@ java.lang.AssertionError: expected:<[apple, pineapple]> but was:<[]>
         at ArrayTests.testFilter(ArrayTests.java:56)
 
 ```
+
 * The Bug
 ```
 class ListExamples{ -> Was a bug because we did not implement the interface, thus we could not use StringChecker. 
@@ -175,4 +177,5 @@ class ListExamples{ -> Was a bug because we did not implement the interface, thu
     }
   }
 ```
+
 * After I fixed the implement bug and ran the test, the symptom returned that the list that is being returned is empty ([]). This relates to the checkString bug because it always returns false. Since it returns false on each iteration then it would not add anything the newly created list. Thus returning an empty list. This is why the test failed. 
