@@ -50,11 +50,13 @@ class NumberServer {
     }
 }
 ```
+
 ![screenshot](images/4.png)
 
 * The method in my code that are called are <code>handleRequest</code> and <code>handle</code> in the Server.java file.
 * The relevant arguemnt in <code>handleRequest</code> is <code>URI url</code>. In this screenshot, I am showing how the webpage looks when first loading it up. Other relevant fields besides <code>URI rul</code> is the <code>string2</code> field. This is imporant because it sets up our ArrayList, so that we can use it in the rest of out code.
-* IF you were to change the ArrayList value in <code>string2</code> to <code>Integer/code> then our code would not compile. We need the elements in the ArrayList to be strings instead of integers. 
+* IF you were to change the ArrayList value in <code>string2</code> to <code>Integer</code> then our code would not compile. We need the elements in the ArrayList to be strings instead of integers. 
+	
 ![screenshot](images/1.png)
 ![screenshot](images/2.png)
 ![screenshot](images/6.png)
@@ -69,7 +71,6 @@ class NumberServer {
 * The method in my code that are called are <code>handleRequest</code>. 
 * The relevant arguemnt in <code>handleRequest</code> is <code>URI url</code>. In this screenshot, we are searching for strings that contain a certain substring. Other relevant fields besides <code>URI rul</code> is when the code is checking if /search is contained in the path. This is important to show which conditional should be used. Another relevant field would be the one that splits the query using .split(). This is important because it helps with the for loops. Another variable that is improtant in the this screenshot is the for loop. The for loop is needed to check every string within the list, so it can find the strings that contain the substring. 
 * If the for loop was altered in anyway then there is a chance it may not work. Within the for loop, if <code>i</code> was sent to 1 isntead of 0 then our list will be off by 1. Although the changes seem very small, it greatly impact how the code is ran. 
-
 
 
 **Part 2**
