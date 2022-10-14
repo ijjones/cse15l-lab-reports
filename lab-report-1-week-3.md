@@ -150,10 +150,10 @@ java.lang.AssertionError: expected:<[apple, pineapple]> but was:<[]>
         at org.junit.Assert.assertEquals(Assert.java:120)
         at org.junit.Assert.assertEquals(Assert.java:146)
         at ArrayTests.testFilter(ArrayTests.java:56)
-
 ```
 
 * The Bug
+
 ```
 class ListExamples{ -> Was a bug because we did not implement the interface, thus we could not use StringChecker. 
 
