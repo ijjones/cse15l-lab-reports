@@ -1,3 +1,4 @@
+**Part 1**
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -50,13 +51,17 @@ class NumberServer {
 }
 ```
 ![screenshot](images/1.png)
-* 
 
 ![screenshot](images/2.png)
-* 
 
 ![screenshot](images/3.png)
+
+![screenshot](images/4.png)
+
+*
+*
+*
+*
 *
 
-![screenshot](images/3.png)
-*
+**Part 2**
