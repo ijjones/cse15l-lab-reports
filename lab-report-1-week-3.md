@@ -143,19 +143,19 @@ public void testFilter() {
 
 * The Symptom
 ```
-2) testFilter(ArrayTests)
-java.lang.AssertionError: expected:<[apple, pineapple]> but was:<[]>
+4) testFilter(ArrayTests)
+java.lang.AssertionError: expected:<[apple, pineapple]> but was:<[pineapple, apple]>
         at org.junit.Assert.fail(Assert.java:89)
         at org.junit.Assert.failNotEquals(Assert.java:835)
         at org.junit.Assert.assertEquals(Assert.java:120)
         at org.junit.Assert.assertEquals(Assert.java:146)
-        at ArrayTests.testFilter(ArrayTests.java:56)
+        at ArrayTests.testFilter(ArrayTests.java:55)
 ```
 
 * The Bug
 
 ```
-class ListExamples{ -> Was a bug because we did not implement the interface, thus we could not use StringChecker. 
+class ListExamples{
 
   // Returns a new list that has all the elements of the input list for which
   // the StringChecker returns true, and not the elements that return false, in
@@ -164,18 +164,18 @@ class ListExamples{ -> Was a bug because we did not implement the interface, thu
     List<String> result = new ArrayList<>();
     for(String s: list) {
       if(sc.checkString(s)) {
-        result.add(0, s);
+        result.add(0, s); -> Is a bug. It inserts the filtered element to the beginning of the list instead of the end.
       }
     }
     return result;
   }
   
   @Override
-  public boolean checkString(String s) { -> Was a bug. Only returned false, thus the List would always be empty.
+  public boolean checkString(String s) { -> IS a bug. Only returned false, thus the List would always be empty.
     // TODO Auto-generated method stub
       return false; 
     }
   }
 ```
 
-* After I fixed the implement bug and ran the test, the symptom returned that the list that is being returned is empty ([]). This relates to the checkString bug because it always returns false. Since it returns false on each iteration then it would not add anything the newly created list. Thus returning an empty list. This is why the test failed. 
+* There are two bugs. The first is that the list that is being returned is empty ([]). This relates to the checkString bug because it always returns false. Since it returns false on each iteration then it would not add anything the newly created list. Thus returning an empty list. After I fixed this bug, there was another bug in the code. The code would add the filtered elemnt to the beginning of the list instead of the end, which would lead to a failed test. Once I removed the index parameter from add the test ran successfully.
