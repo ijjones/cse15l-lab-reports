@@ -56,7 +56,7 @@ class NumberServer {
 * The method in my code that are called are <code>handleRequest</code> and <code>handle</code> in the Server.java file.
 * The relevant arguemnt in <code>handleRequest</code> is <code>URI url</code>. In this screenshot, I am showing how the webpage looks when first loading it up. Other relevant fields besides <code>URI rul</code> is the <code>string2</code> field. This is imporant because it sets up our ArrayList, so that we can use it in the rest of out code.
 * IF you were to change the ArrayList value in <code>string2</code> to <code>Integer</code> then our code would not compile. We need the elements in the ArrayList to be strings instead of integers. 
-	
+#### Add
 ![screenshot](images/1.png)
 ![screenshot](images/2.png)
 ![screenshot](images/6.png)
@@ -65,7 +65,7 @@ class NumberServer {
 * The method in my code that are called are <code>handleRequest</code>. 
 * The relevant arguemnt in <code>handleRequest</code> is <code>URI url</code>. In this screenshot, we are adding a string to our list. Other relevant fields besides <code>URI rul</code> is when the code is checking if /add is contained in the path. This is important to show which conditional should be used. Another relevant field would be the one that splits the query using .split(). This is important to get the parameters which helps with creating the list. The split is helpful when needing to add the string after the equal sign to the list. 
 * If .split() did not take in the equal sign but another delimiter then it would not work. Similarly using another value then /add would not work. When /add is typed in the search bar the user will get the error <code>404 not found!</code>
-
+#### Search
 ![screenshot](images/3.png)
 
 * The method in my code that are called are <code>handleRequest</code>. 
