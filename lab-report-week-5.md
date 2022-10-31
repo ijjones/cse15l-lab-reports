@@ -15,7 +15,7 @@ isaiahjones@Isaiahs-MacBook-Pro docsearch % less -E technical/911report/chapter-
 
         
                 
-"WE HAVE SOME PLANES"
+ "WE HAVE SOME PLANES"
 
     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. 
 ```
