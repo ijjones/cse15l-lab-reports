@@ -19,6 +19,7 @@ isaiahjones@Isaiahs-MacBook-Pro docsearch % less -E technical/911report/chapter-
     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. 
 ```
 *  This commands exits automatically once it reaches the end of the file. This command option is useful because it will save you some time when doing work. The first time I ran less, I did not know that you had to manually exit. Knowing this command option, it would have saved me some time. 
+
 ```
 isaiahjones@Isaiahs-MacBook-Pro docsearch % less -pDECLARATION technical/911report/chapter-2.txt
 THE FOUNDATION OF THE NEW TERRORISM
