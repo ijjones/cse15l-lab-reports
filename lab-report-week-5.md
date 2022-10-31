@@ -9,6 +9,7 @@ isaiahjones@Isaiahs-MacBook-Pro docsearch % less -N  technical/911report/chapter
 6 Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work.
 ```
 * This commands shows the line number of the files. This is a useful command you want to send code from specific lines or when you get an error. 
+
 ```
 isaiahjones@Isaiahs-MacBook-Pro docsearch % less -E technical/911report/chapter-1.txt
 
