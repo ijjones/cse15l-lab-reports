@@ -24,4 +24,10 @@
     WEEK 3
 </span>
 
-[Lab Report 3](https://ijjones.github.io/cse15l-lab-reports/lab-report-1-week-3.html)
+[Lab Report 2](https://ijjones.github.io/cse15l-lab-reports/lab-report-1-week-3.html)
+
+<span style="color:black;font-weight:50;font-size:20px">
+    WEEK 5
+</span>
+
+[Lab Report 3](https://ijjones.github.io/cse15l-lab-reports/lab-report-week-5.html)
