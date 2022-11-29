@@ -31,3 +31,15 @@
 </span>
 
 [Lab Report 3](https://ijjones.github.io/cse15l-lab-reports/lab-report-week-5.html)
+
+<span style="color:black;font-weight:50;font-size:20px">
+    WEEK 7
+</span>
+
+[Lab Report 4](https://ijjones.github.io/cse15l-lab-reports/lab-report-week-5.html)
+
+<span style="color:black;font-weight:50;font-size:20px">
+    WEEK 9
+</span>
+
+[Lab Report 5](https://ijjones.github.io/cse15l-lab-reports/lab-report-week-5.html)
