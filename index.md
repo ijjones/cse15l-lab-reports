@@ -36,7 +36,7 @@
     WEEK 7
 </span>
 
-[Lab Report 4](https://ijjones.github.io/cse15l-lab-reports/lab-report-week-5.html)
+[Lab Report 4](https://ijjones.github.io/cse15l-lab-reports/lab-report-4-week-7.html)
 
 <span style="color:black;font-weight:50;font-size:20px">
     WEEK 9
