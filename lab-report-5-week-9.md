@@ -52,3 +52,8 @@ echo "Overall Grade: $grade/3 Points"
 
 exit
 ```
+![screenshot](images/lab5-s1.png)
+
+![screenshot](images/lab5-s2.png)
+
+![screenshot](images/lab5-s3.png)
