@@ -99,10 +99,12 @@ else
 fi
 ```
 * This block of code turns off set -e (we do not want to exit if command returns non-zero status because we want the user to know the error given), compile the files in the directory, and then it will check if the java file compiled properly. In test submission 1, the condition was false because the java file did compile properly and ```$? = 0```, thus the standard ouptut is "File Compiled Successfully! (1 Point Gained)" and has a return code of 0. If the file did not compile properly then ```$? != 0``` and the condition would be true and echo "Compile Error! Fix Error Below and Retry! (No Points Gained)", ```cat error.txt```, and immediately exit. 
+
 ```
 echo "Running Test:"
 ```
 * This code echos a message. The standard output is "Running Test:" and has a return code of 0.
+
 ```
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > output.txt
 
