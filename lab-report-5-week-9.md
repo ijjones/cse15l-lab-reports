@@ -83,6 +83,7 @@ else
 fi
 ```
 * This block of code will check if the java file is in student-submission. In test submission 1, the condition was true because the java file was found in student-submission thus, the standard outut is "File was found! (1 Point Gained)" and the return code is 0. The lines after ```else``` do not run because the file was found in student-submission. If the file wasn't found then the condition would be false and return the message "File not found! (No Points Gained)" and immediately exit. 
+
 ```
 set +e
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 2> error.txt
