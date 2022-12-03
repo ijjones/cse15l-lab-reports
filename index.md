@@ -42,4 +42,4 @@
     WEEK 9
 </span>
 
-[Lab Report 5](https://ijjones.github.io/cse15l-lab-reports/lab-report-week-5.html)
+[Lab Report 5](https://ijjones.github.io/cse15l-lab-reports/lab-report-5-week-9.html)
