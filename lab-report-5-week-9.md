@@ -117,6 +117,7 @@ else
 fi
 ```
 * This block of code will test the TestListExamples class to check if the students code is correct and then it will check if all the test passed or failed. In test submission 1, the condition was true because a match was found. The standadrd output is "One or More Tests Failed! Please Refer to output.txt! (No Points Gained)" and has a retrn code of 0 (this is because grep will have a zero status if a match is found). In this test, there is no standard error, however, if there was an error then the standard error would print afer the standard output. If the file did not find the pattern in the file then the condtion would be false and it would echo "All Test Passed! (1 Point Gained)" and have a return code of ```!= 0```.
+
 ```
 echo "Testing Finished!"
 ```
